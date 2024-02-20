@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+.main-footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-link p{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    margin-top: 8px;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.footer-head h4{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 10px;
+}
+.footer-soc-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.footer-soc-icons i{
+    font-size: 30px;
+    padding-bottom: 15px;
+        color: black;
+}
+.footer-soc-icons i:hover{
+    color: rgba(68, 88, 220, 1);
+}
+.footer-copyrights p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0px 0px 0px;
+}
+.footer{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 30px 0px;
+}
+@media screen and (max-width:500px) {
+    .footer-copyrights p{
+        font-size: 15px;
+        text-align: center;
+    }
+}
