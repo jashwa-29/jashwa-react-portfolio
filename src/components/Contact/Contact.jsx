@@ -35,7 +35,7 @@ const Contact = () => {
             <p>If you like my Projects and Portfolio, kindly contact me here</p>
         </div>
       <div className="main-con-flex">
-             <div className="form-box" data-aos="fade-right"
+             <div className="form-box" data-aos="fade-down"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
                  <form ref={form} onSubmit={sendEmail}>
@@ -52,7 +52,7 @@ const Contact = () => {
 
                 </form> 
              </div>
-             <div className='also-con-box' data-aos="fade-left"      data-aos-offset="300"
+             <div className='also-con-box' data-aos="fade-up"      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
                     <h4>Also Contact me in </h4>
                     <p><span class="material-symbols-outlined">

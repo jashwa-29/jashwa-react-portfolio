@@ -22,7 +22,7 @@ const Footer = () => {
            <a href=""><i class="bi bi-telegram"></i></a>
            </div>
            <div className="footer-copyrights">
-            <p>Copyright © Web developer Jashwa- All rights reserved | 2023</p>
+            <p>Copyright © Web developer Jashwa- All rights reserved | 2024</p>
            </div>
        </div>
     </div>
