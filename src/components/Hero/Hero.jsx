@@ -34,7 +34,7 @@
           });
       };
 
-      const el = React.useRef(null);
+      // const el = React.useRef(null);
 
 
 
@@ -50,7 +50,7 @@
                 <h4>Full stack Web Developer</h4>
                 <div className='hero-btn'>
                     <a href="mailto:jashwa4673@gmail.com?subject=Job Opportunity&body=Hi there, I'm interested in discussing a job opportunity with you."><button className='hero-btn-one'>HIRE ME</button></a>
-                    <a href="">  <button className='hero-btn-two' onClick={handleDownloadCV}>DOWNLOAD CV</button></a>
+                 <button className='hero-btn-two' onClick={handleDownloadCV}>DOWNLOAD CV</button>
                 </div>
                 <div className='hero-soc-icons' data-aos="zoom-out-right">
                   <a href="https://www.instagram.com/jashxx_.07/"><i class="bi bi-instagram"></i></a>

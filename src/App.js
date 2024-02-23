@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
@@ -7,11 +7,11 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer';
-import AOS from 'aos'
+// import AOS from 'aos'
 import 'aos/dist/aos.css'
-import $ from "jquery";
+// import $ from "jquery";
 import React from 'react';
-import Typed from 'typed.js';
+// import Typed from 'typed.js';
 
 
 

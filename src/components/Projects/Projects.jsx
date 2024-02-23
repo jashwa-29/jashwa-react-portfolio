@@ -1,6 +1,6 @@
 import React from 'react'
 import './project.css'
-import AOS from 'aos'
+// import AOS from 'aos'
 import CustomTabPanel from './CustomTabPanel'
 
 
@@ -12,16 +12,9 @@ const Projects = () => {
                 <div className="project-head">
                   <h2>PROJECTS</h2>
                   </div>
-              
-              <CustomTabPanel />
-              
-
+                  <CustomTabPanel />
 </div>
-
-                </div>
-           
-
-  
+ </div>
   )
 }
 
