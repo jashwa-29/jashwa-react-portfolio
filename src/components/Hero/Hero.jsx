@@ -47,7 +47,7 @@
      data-aos-offset="300">
                 <h3>HELLO <div className='hello-stroke'></div></h3>
                 <h1>I AM <span>{typeEffect}</span></h1>
-                <h4>Full stack Web Developer</h4>
+                <h4>Front-End Web Developer</h4>
                 <div className='hero-btn'>
                     <a href="mailto:jashwa4673@gmail.com?subject=Job Opportunity&body=Hi there, I'm interested in discussing a job opportunity with you."><button className='hero-btn-one'>HIRE ME</button></a>
                  <button className='hero-btn-two' onClick={handleDownloadCV}>DOWNLOAD CV</button>

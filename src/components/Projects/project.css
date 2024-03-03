@@ -129,3 +129,9 @@
    font-family: "Poppins", sans-serif;
 
 } */
+@media screen and (max-width:500px) {
+    .card{
+        width: 330px;
+        height: auto;
+    }
+}

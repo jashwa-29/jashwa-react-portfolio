@@ -45,6 +45,7 @@
 .abt-content p{
     font-size: 24px;
     font-family: "Poppins", sans-serif;
+    width: 580px;
 }
 .education h3, .skill-head h3{
     font-size: 28px;
@@ -127,6 +128,10 @@
  .abt-flex{
     flex-direction: column;
  }
+ .abt-content h3{
+    font-size: 28px;
+
+}
  .ed-box{
  width: 100%;
 }
@@ -139,6 +144,37 @@
     width: 100%;
     height:  auto;
 }
+.ed-box{
+    padding: 16px 14px 14px 14px;
+}
+.ed-box p{
+
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 0px;
+
+}
+.ed-box i{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.main-b-o-flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.others h4{
+    margin-right: -20px;
+}
+
+.abt-content p{
+    font-size: 19px;
+    width: 100%;
+}
+
+
 }
 
 @media only screen 
@@ -154,4 +190,18 @@
         justify-content: center;
         align-items: center;
      }
+     .ed-box{
+        padding: 16px 14px 14px 14px;
+    }
+    .main-b-o-flex{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+
+    .abt-content p{
+        width: 100%;
+    }
+
 }

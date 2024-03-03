@@ -9,6 +9,12 @@ import './project.css'
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
 
+  // const [value, setValue] = React.useState(0);
+
+  // const handleChange = (event, newValue) => {
+  //   setValue(newValue);
+  // };
+
   return (
     <div
       role="tabpanel"
@@ -48,14 +54,40 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box  sx={{ width:'100%', bgcolor: 'background.paper',}}>
-      <Box sx={{}}>
-        <Tabs value={value} onChange={handleChange} centered       indicatorColor="secondary"
-          textColor="inherit">
-          <Tab label="HTML & CSS"{...a11yProps(0)}  />
-          <Tab label="Bootstrap" {...a11yProps(1)} />
-          <Tab label="JavaScript" {...a11yProps(2)} />
-          {/* <Tab label="React" {...a11yProps(3)} /> */}
+    <div className='container'>
+    <Box  sx={{ width:'100%', bgcolor: 'background.paper', }}>
+      <Box sx={{width: '100%', maxWidth: '1200px', }} >
+        <Tabs value={value} onChange={handleChange} centered 
+          textColor="inherit"   TabIndicatorProps={{style: {
+            display: 'none' // Hide the default indicator
+          }}}
+      variant="standard scrollable"
+      scrollButtons="auto"
+      sx={{  '& .MuiTabs-flexContainer': {
+        justifyContent: 'center',
+        flexWrap: 'wrap'
+      } }}  >
+          <Tab
+    label={<span style={{ display: 'flex', justifyContent: 'center',fontWeight: 'bold',fontFamily: 'Rubik' , fontSize: '18px' }}>HTML & CSS</span>}
+    {...a11yProps(0)}
+  />
+          <Tab 
+    label={<span style={{ display: 'flex', justifyContent: 'center',fontWeight: 'bold' ,fontFamily: 'Rubik' , fontSize: '18px' }}>Bootstrap</span>} 
+    {...a11yProps(1)} 
+  />
+            <Tab 
+    label={<span style={{ display: 'flex', justifyContent: 'center',fontWeight: 'bold',fontFamily: 'Rubik' , fontSize: '18px' }}>JavaScript</span>} 
+    {...a11yProps(2)} 
+  />
+          <Tab 
+    label={<span style={{ display: 'flex', justifyContent: 'center',fontWeight: 'bold' ,fontFamily: 'Rubik' , fontSize: '18px' }}>React</span>} 
+    {...a11yProps(3)} 
+  />
+            {/* <Tab 
+    label={<span style={{ display: 'flex', justifyContent: 'center',fontWeight: 'bold' ,fontFamily: 'Rubik' , fontSize: '18px' }}>Wordpress</span>} 
+    {...a11yProps(4)} 
+  /> */}
+
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -98,7 +130,7 @@ export default function BasicTabs() {
 </div>
 </a>
 
-<a href="">               
+<a href="https://jashwa-29.github.io/the-Wefix-Repair-services/">               
 <div class="card"  data-aos="flip-left">
     <img src={require('../../Assets/sneaker-web.webp')} alt="" />
     <div class="cardBody">
@@ -131,7 +163,7 @@ export default function BasicTabs() {
 </div>
 </a>
 
-<a href="https://jashwa-29.github.io/Crud-Operation-Javascript/">
+<a href="https://jashwa-29.github.io/javascript-english-dictionary-api/">
 <div class="card"  data-aos="flip-left">
     <img src={require('../../Assets/dictionary-api.webp')} alt="" />
     <div class="cardBody">
@@ -143,11 +175,11 @@ export default function BasicTabs() {
 
 
       </div>
-      </CustomTabPanel>
+   </CustomTabPanel>
 
-      {/* <CustomTabPanel value={value} index={3}>
+     <CustomTabPanel value={value} index={3}>
       <div className="project-row">
-      <a href="https://jashwa-29.github.io/Crud-Operation-Javascript/">
+      <a href="https://jashwa-react-chat-app.netlify.app/">
 <div class="card"  data-aos="flip-left">
     <img src={require('../../Assets/react-chat-app.webp')} alt="" />
     <div class="cardBody">
@@ -156,8 +188,27 @@ export default function BasicTabs() {
     </div>
 </div>
 </a>
+
+<a href="https://watchzz.netlify.app/">
+<div class="card"  data-aos="flip-left">
+    <img src={require('../../Assets/react-ecommerce-website.webp')} alt="" />
+    <div class="cardBody">
+        <h1 class="cardTitle">React <br />E-commerce Website </h1>
+        <p class="cardInfo">Watchzz  react mulipage website</p>
+    </div>
 </div>
-      </CustomTabPanel> */}
+</a>
+</div>
+      </CustomTabPanel>
+
+      <CustomTabPanel value={value} index={4}>
+        
+      </CustomTabPanel>
     </Box>
+    </div>
   );
 }
+
+
+
+

@@ -29,7 +29,7 @@ const Header = () => {
         <Navbar.Brand className='header-logo'>JASHWA</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto gap-5">
+          <Nav className="ms-auto gap-lg-5 gap-md-3 gap-sm-2">
           <Link to="hero" smooth={true} offset={-165} duration={100} className='header-nav'><p>HOME</p></Link>
         <Link to="about" smooth={true}  offset={-60} duration={100} className='header-nav'><p>ABOUT</p></Link>
         <Link to="project" smooth={true} offset={-10} duration={100} className='header-nav'><p>PROJECTS</p></Link>
