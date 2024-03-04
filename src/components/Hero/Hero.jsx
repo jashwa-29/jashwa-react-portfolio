@@ -20,7 +20,7 @@
    
       const handleDownloadCV = () => {
         // Path to the PDF file in the assets folder
-       const pdfPath = require('../../Assets/Jashwa-front-end-developer-resume.pdf');
+       const pdfPath = require('../../Assets/Jashwa-29-front-end-developer-resume.pdf');
     
         // Fetch the PDF file using the path
         fetch(pdfPath)
