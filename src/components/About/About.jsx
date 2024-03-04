@@ -24,7 +24,7 @@ const About = () => {
         <div className="abt-content" data-aos="zoom-in-left"   data-aos-offset="350"
      data-aos-easing="ease-in-sine">
             <h3>Web Developer and Designer</h3>
-            <p>As a Dedicated Full stack Web Developer with Entry level experience in creating visually  appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, React with a strong foundation in responsive design and cross-browser compatibility.</p>
+            <p>As a Dedicated Front-End Web Developer with Entry level experience in creating visually  appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, React with a strong foundation in responsive design and cross-browser compatibility.</p>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ const About = () => {
             <h3>EDUCATION</h3>
             <div className='ed-box'  data-aos="flip-left"   data-aos-offset="320"
      data-aos-easing="ease-in-sine">
-                <p><i class="bi bi-mortarboard"></i>2024 | Certified - Full Stack Developer | WEB D SCHOOL</p>
+                <p><i class="bi bi-mortarboard"></i>2024 | Pursuing - Full Stack Developer | WEB D SCHOOL</p>
                 <p><i class="bi bi-mortarboard"></i>2020 - 2023 | Bachelor of Commerce | ST.Thomas college of arts & science</p>
                 <p><i class="bi bi-mortarboard"></i>2018 - 2020 | Higher Secondary | Mar Thoma matriculation Higher Sec School</p>
             </div>
