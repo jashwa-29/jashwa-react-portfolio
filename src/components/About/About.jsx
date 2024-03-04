@@ -24,7 +24,7 @@ const About = () => {
         <div className="abt-content" data-aos="zoom-in-left"   data-aos-offset="350"
      data-aos-easing="ease-in-sine">
             <h3>Web Developer and Designer</h3>
-            <p>As a Dedicated Full stack Web Developerwith Entry level experience in creating visually  appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, React with a strong foundation in responsive design and cross-browser compatibility.</p>
+            <p>As a Dedicated Full stack Web Developer with Entry level experience in creating visually  appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, React with a strong foundation in responsive design and cross-browser compatibility.</p>
         </div>
       </div>
 
