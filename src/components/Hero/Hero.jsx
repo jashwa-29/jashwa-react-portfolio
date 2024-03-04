@@ -20,14 +20,14 @@
    
       const handleDownloadCV = () => {
         // Path to the PDF file in the assets folder
-       const pdfPath = require('../../Assets/Jashwa-resume-front-end-developer.pdf');
+       const pdfPath = require('../../Assets/Jashwa-front-end-developer-resume.pdf');
     
         // Fetch the PDF file using the path
         fetch(pdfPath)
           .then((response) => response.blob())
           .then((blob) => {
             // Download the Blob as a file using file-saver
-            saveAs(blob, 'Jashwa-resume-front-end-developer.pdf');
+            saveAs(blob, 'Jashwa-front-end-developer-resume.pdf');
           })
           .catch((error) => {
             console.error('Error fetching or saving the PDF file:', error);
