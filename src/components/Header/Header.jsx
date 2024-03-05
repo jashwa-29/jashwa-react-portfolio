@@ -26,7 +26,7 @@ const Header = () => {
       </div> */}
       <Navbar expand="lg" className="header" fixed="top" >
       <Container>
-        <Navbar.Brand className='header-logo'>JASHWA</Navbar.Brand>
+        <Navbar.Brand className='header-logo'>PORTFOLIO</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-lg-5 gap-md-3 gap-sm-2">
