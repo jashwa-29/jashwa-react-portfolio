@@ -34,16 +34,42 @@
     gap: 100px;
     flex-wrap: wrap;
 }
-.also-con-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 550px;
-    height: 300px;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+.also-con-box {
+    position: relative;
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center; 
+    width: 550px; 
+    height: 300px; 
+    border-radius: 8px; 
+    background-color: white; 
+    box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; /* Hides the gradient initially */
+}
+
+.also-con-box:before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #4458DC, #854FEE);
+    transition: top 0.5s ease; /* Transition for top property */
+}
+
+.also-con-box:hover:before {
+    top: 0; /* Moves the gradient from top to bottom on hover */
+}
+
+.also-con-box .content {
+    position: relative;
+    z-index: 1; /* Ensure text remains above the gradient */
+}
+
+.also-con-box:hover .content {
+    color: white; /* Text color changes to white on hover */
 }
 
     .input-flex input{
