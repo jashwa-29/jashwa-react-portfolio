@@ -38,7 +38,7 @@ const Contact = () => {
       <div className="main-con-flex">
              <div className="form-box" data-aos="zoom-in-up"
      data-aos-offset="310"
-     data-aos-easing="ease-in-sine" data-aos-delay="100">
+     data-aos-easing="ease-in-sine" data-aos-delay="200">
                  <form ref={form} onSubmit={sendEmail}>
                 
                     <div className="input-flex">
@@ -54,7 +54,7 @@ const Contact = () => {
                 </form> 
              </div>
              <div className='also-con-box  contact-info' data-aos="zoom-in-down"      data-aos-offset="310"
-     data-aos-easing="ease-in-sine" data-aos-delay="100">
+     data-aos-easing="ease-in-sine" data-aos-delay="200">
                     <h4 className='content'>Also Contact me in </h4>
                     <p className='content'><span class="material-symbols-outlined">
 mail
