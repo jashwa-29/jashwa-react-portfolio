@@ -30,8 +30,8 @@ const About = () => {
 
       <div className='education'>
             <h3>EDUCATION</h3>
-            <div className='ed-box'  data-aos="flip-left"   data-aos-offset="320"
-     data-aos-easing="ease-in-sine">
+          <div className='ed-box'  data-aos="flip-up"   data-aos-offset="360"
+     data-aos-easing="ease-in-sine"   data-aos-delay="100">
                 <p><i class="bi bi-mortarboard"></i>2024 | Pursuing - Full Stack Developer | WEB D SCHOOL</p>
                 <p><i class="bi bi-mortarboard"></i>2020 - 2023 | Bachelor of Commerce | ST.Thomas college of arts & science</p>
                 <p><i class="bi bi-mortarboard"></i>2018 - 2020 | Higher Secondary | Mar Thoma matriculation Higher Sec School</p>
